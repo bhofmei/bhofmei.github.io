@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Brigitte Hofmeister</title>
+    <link>http://replace-this-with-your-website-url.com/tags/visualization/</link>
+    <description>Recent content in Visualization on Brigitte Hofmeister</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
+    <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-website-url.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Epigenomics Vizualization</title>
+      <link>http://replace-this-with-your-website-url.com/project/epigenomics-visualization/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-website-url.com/project/epigenomics-visualization/</guid>
+      <description>&lt;p&gt;Epigenomics is the study of genome-wide distribtuions of chromatin modifications.
+Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecifpation sequencing (ChIP-seq).
+With the large quantities of data being produced, data vizualization is an important step for quality control and exploration.&lt;/p&gt;
+
+&lt;p&gt;Numerous software programs exist to visualize genomics data; most popular is the genome browser.
+These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is almost no support for intuitively visualizing epigenomics.&lt;/p&gt;
+
+&lt;p&gt;I have been working on developing additonal tools, plugins, for the genome browser JBrowse that support epigenomics data.
+Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &amp;ldquo;tracks&amp;rdquo; which makes it extremely difficult to see combinations and patterns.
+The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
+
+&lt;p&gt;Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
+Traiditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indiciative of function.
+I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
+
+&lt;p&gt;Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
+For example, in ATAC-seq, it is beneficial to know strand-specific coverage (not currently support by JBrowse).
+I have created a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34;&gt;plugin&lt;/a&gt; that easily supports these strand-specific coverage tracks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
