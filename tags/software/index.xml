@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Brigitte Hofmeister</title>
-    <link>http://replace-this-with-your-website-url.com/tags/software/</link>
+    <link>https://bhofmei.github.io/tags/software/</link>
     <description>Recent content in Software on Brigitte Hofmeister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
     <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-website-url.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bhofmei.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Epigenomics Vizualization</title>
-      <link>http://replace-this-with-your-website-url.com/project/epigenomics-visualization/</link>
+      <link>https://bhofmei.github.io/project/epigenomics-visualization/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-website-url.com/project/epigenomics-visualization/</guid>
+      <guid>https://bhofmei.github.io/project/epigenomics-visualization/</guid>
       <description>&lt;p&gt;Epigenomics is the study of genome-wide distribtuions of chromatin modifications.
 Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecifpation sequencing (ChIP-seq).
 With the large quantities of data being produced, data vizualization is an important step for quality control and exploration.&lt;/p&gt;

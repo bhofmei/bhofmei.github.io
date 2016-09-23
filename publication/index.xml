@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Brigitte Hofmeister</title>
-    <link>http://replace-this-with-your-website-url.com/publication/</link>
+    <link>https://bhofmei.github.io/publication/</link>
     <description>Recent content in Publications on Brigitte Hofmeister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
     <lastBuildDate>Tue, 09 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-website-url.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bhofmei.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On the origin and evolutionary consequences of gene body DNA methylation</title>
-      <link>http://replace-this-with-your-website-url.com/publication/origin-gbm/</link>
+      <link>https://bhofmei.github.io/publication/origin-gbm/</link>
       <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-website-url.com/publication/origin-gbm/</guid>
+      <guid>https://bhofmei.github.io/publication/origin-gbm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Base J represses genes at the end of polycistronic gene clusters in Leishmania major by promoting RNAP II termination</title>
-      <link>http://replace-this-with-your-website-url.com/publication/l-major_base_j/</link>
+      <link>https://bhofmei.github.io/publication/l-major_base_j/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-website-url.com/publication/l-major_base_j/</guid>
+      <guid>https://bhofmei.github.io/publication/l-major_base_j/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FASTmC: A Suite of Predictive Models for Nonreference-Based Estimations of DNA Methylation</title>
-      <link>http://replace-this-with-your-website-url.com/publication/fastmc/</link>
+      <link>https://bhofmei.github.io/publication/fastmc/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-website-url.com/publication/fastmc/</guid>
+      <guid>https://bhofmei.github.io/publication/fastmc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Histone H3 Variant Regulates RNA Polymerase II Transcription Termination and Dual Strand Transcription of siRNA Loci in Trypanosoma brucei</title>
-      <link>http://replace-this-with-your-website-url.com/publication/t-brucei_base_j/</link>
+      <link>https://bhofmei.github.io/publication/t-brucei_base_j/</link>
       <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://replace-this-with-your-website-url.com/publication/t-brucei_base_j/</guid>
+      <guid>https://bhofmei.github.io/publication/t-brucei_base_j/</guid>
       <description></description>
     </item>
     
