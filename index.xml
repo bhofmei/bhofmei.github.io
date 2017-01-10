@@ -20,24 +20,24 @@
     </item>
     
     <item>
-      <title>Epigenomics Vizualization</title>
+      <title>Epigenomics Visualization</title>
       <link>https://bhofmei.github.io/project/epigenomics-visualization/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bhofmei.github.io/project/epigenomics-visualization/</guid>
-      <description>&lt;p&gt;Epigenomics is the study of genome-wide distribtuions of chromatin modifications.
-Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecifpation sequencing (ChIP-seq).
-With the large quantities of data being produced, data vizualization is an important step for quality control and exploration.&lt;/p&gt;
+      <description>&lt;p&gt;Epigenomics is the study of genome-wide distributions of chromatin modifications.
+Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecipation sequencing (ChIP-seq).
+With the large quantities of data being produced, data visualization is an important step for quality control and exploration.&lt;/p&gt;
 
 &lt;p&gt;Numerous software programs exist to visualize genomics data; most popular is the genome browser.
-These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is almost no support for intuitively visualizing epigenomics.&lt;/p&gt;
+These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is very little support for visualizing epigenomics.&lt;/p&gt;
 
-&lt;p&gt;I have been working on developing additonal tools, plugins, for the genome browser JBrowse that support epigenomics data.
+&lt;p&gt;I have been working on developing additional tools, plugins, for the genome browser JBrowse that support epigenomics data.
 Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &amp;ldquo;tracks&amp;rdquo; which makes it extremely difficult to see combinations and patterns.
 The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
 
 &lt;p&gt;Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
-Traiditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indiciative of function.
+Traditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indicative of function.
 I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
 
 &lt;p&gt;Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
@@ -98,6 +98,36 @@ Recently, I have been creating plugins for the genome browser &lt;a href=&#34;ht
       
       <guid>https://bhofmei.github.io/publication/t-brucei_base_j/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://bhofmei.github.io/home/software/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/home/software/</guid>
+      <description>
+
+&lt;h2 id=&#34;jbrowse-plugins&#34;&gt;JBrowse Plugins&lt;/h2&gt;
+
+&lt;h3 id=&#34;epigenomics&#34;&gt;Epigenomics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation&#34;&gt;DNA Methylation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna&#34;&gt;Small RNA-seq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34;&gt;Stranded Coverage Tracks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;user-experience&#34;&gt;User Experience&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-trackscores&#34;&gt;Adjust Track Scores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-hierarchicalcheckbox&#34;&gt;Hierarchical Track list Checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-screenshot&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-seqview&#34;&gt;Sequence Feature Views&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-yscale&#34;&gt;Y-Scale Menu Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

@@ -28,5 +28,35 @@ Recently, I have been creating plugins for the genome browser &lt;a href=&#34;ht
 </description>
     </item>
     
+    <item>
+      <title>software</title>
+      <link>https://bhofmei.github.io/home/software/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/home/software/</guid>
+      <description>
+
+&lt;h2 id=&#34;jbrowse-plugins&#34;&gt;JBrowse Plugins&lt;/h2&gt;
+
+&lt;h3 id=&#34;epigenomics&#34;&gt;Epigenomics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation&#34;&gt;DNA Methylation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna&#34;&gt;Small RNA-seq&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34;&gt;Stranded Coverage Tracks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;user-experience&#34;&gt;User Experience&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-trackscores&#34;&gt;Adjust Track Scores&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-hierarchicalcheckbox&#34;&gt;Hierarchical Track list Checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-screenshot&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-seqview&#34;&gt;Sequence Feature Views&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-yscale&#34;&gt;Y-Scale Menu Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

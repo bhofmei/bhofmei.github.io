@@ -22,7 +22,7 @@
     <link rel="shortcut icon" href="https://bhofmei.github.io/img/favicon.ico" type="image/x-icon">
     <link rel="canonical" href="https://bhofmei.github.io/project/epigenomics-visualization/">
 
-    <title>Epigenomics Vizualization | Brigitte Hofmeister</title>
+    <title>Epigenomics Visualization | Brigitte Hofmeister</title>
 
 </head>
 <body id="top">
@@ -54,6 +54,8 @@
                 
                 <li class="nav-item"><a href="https://bhofmei.github.io/#projects">Projects</a></li>
                 
+                <li class="nav-item"><a href="https://bhofmei.github.io/#software">Software</a></li>
+                
                 <li class="nav-item"><a href="https://bhofmei.github.io/#contact">Contact</a></li>
                 
             </ul>
@@ -67,24 +69,24 @@
     <article class="article article-project" itemscope itemtype="http://schema.org/Article">
         
 
-        <h1 itemprop="name">Epigenomics Vizualization</h1>
+        <h1 itemprop="name">Epigenomics Visualization</h1>
 
         
 
         <div class="article-style" itemprop="articleBody">
-            <p>Epigenomics is the study of genome-wide distribtuions of chromatin modifications.
-Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecifpation sequencing (ChIP-seq).
-With the large quantities of data being produced, data vizualization is an important step for quality control and exploration.</p>
+            <p>Epigenomics is the study of genome-wide distributions of chromatin modifications.
+Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecipation sequencing (ChIP-seq).
+With the large quantities of data being produced, data visualization is an important step for quality control and exploration.</p>
 
 <p>Numerous software programs exist to visualize genomics data; most popular is the genome browser.
-These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is almost no support for intuitively visualizing epigenomics.</p>
+These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is very little support for visualizing epigenomics.</p>
 
-<p>I have been working on developing additonal tools, plugins, for the genome browser JBrowse that support epigenomics data.
+<p>I have been working on developing additional tools, plugins, for the genome browser JBrowse that support epigenomics data.
 Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &ldquo;tracks&rdquo; which makes it extremely difficult to see combinations and patterns.
 The <a href="https://github.com/bhofmei/jbplugin-methylation.git">methylation plugin</a> I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.</p>
 
 <p>Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
-Traiditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indiciative of function.
+Traditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indicative of function.
 I have developed a <a href="https://github.com/bhofmei/jbplugin-smallrna.git">small RNA-plugin</a> for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.</p>
 
 <p>Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
