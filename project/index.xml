@@ -6,9 +6,25 @@
     <description>Recent content in Projects on Brigitte Hofmeister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
-    <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bhofmei.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018 Brigitte Hofmeister</copyright>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web Application for Undergraduate Genetics Education</title>
+      <link>https://bhofmei.github.io/project/undergrad-genetics/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/project/undergrad-genetics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This project is in progress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Developing an interest for web development, this project aims to join my interests: software development and genetics.
+This web applicaiton is based on previous software which was used to teach students about codons and frameshift mutations using scenario-based problem solving.
+The original software no longer works with current web browsers, so I was tasked with recreating it following current web development practices.&lt;/p&gt;
+
+&lt;p&gt;Built using the MEAN stack (MongoDB, Express, Node.js, and Angular), this application is visually appealling and simplifies the original user interface so students can focus on the genetics and logic.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Epigenetic Inheritance</title>
@@ -16,7 +32,26 @@
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bhofmei.github.io/project/epigenetic-inheritance/</guid>
-      <description></description>
+      <description>&lt;p&gt;With the combination of bisulfite conversion and high-throughput sequencing techniques, it is now possible to generate genome-wide single base resolution maps of cytosine methylation, referred to as whole-genome bisulfite sequencing (WGBS).
+This has revolutionized the way scientists study epigenetics.
+&lt;strong&gt;Epigenetics&lt;/strong&gt; is the study of heritable changes in gene expression that occur independently from changes in nucleotide sequence.
+Before WGBS, methylation could only be determined in small regions at a time or at low resolution, but now it is possible to track single methylation polymorphisms across generations.
+This technique to experimental and natural populations to understand epigenetic variation and effects of mutations on methylation polymorphisms.&lt;/p&gt;
+
+&lt;p&gt;I am specifically interested in the generation, heritability, and stability of spontaneous epialleles both meiotically and mitotically.
+&lt;strong&gt;Epiallele&lt;/strong&gt; describes a heritable allele that varies in chromatin state.
+The most interesting, and most rare, of these epialleles are spontaneous epialleles, where the change in chromatin state occurs independent of changes in DNA sequence.
+Several spontaneous epialleles are known in plants, such as &lt;em&gt;Lcyc&lt;/em&gt; gene, which causes altered flower morphology, and &lt;em&gt;colorless non-ripening&lt;/em&gt; (&lt;em&gt;CNR&lt;/em&gt;) epiallele, which prevents pigmentation in tomatoes.
+These epialleles have been well studied and documented in the literature, although they offer limited insight into directed applications of directed epimutagenisis and the heritability of epialleles.&lt;/p&gt;
+
+&lt;p&gt;This project aims to determine if epialleles are stable across generations and follow Mendelian inheritance, which are requirements for successful introduction into breeding programs.&lt;br /&gt;
+Previous work from the Schmitz lab with &lt;em&gt;Arabidopsis thaliana&lt;/em&gt; mutation accumulation lines revealed the existence of spontaneous epialleles between early and late generation lines.
+Using WGBS from successive generations of two MA lines, I determined that approximately 99.998% of methylated regions in the genome are faithfully inherited to the next generation.
+For breeding programs, spontaneous epialleles must also be inherited following Mendelian laws.
+With a genetic cross between two MA lines, WGBS was obtained for the parents of the cross and 20 F2 individuals.
+The parents only had about 40 distinguishing mutations, which required the creation of a novel algorithm to generate a genetic map using only DNA methylation, termed an &lt;strong&gt;epigenotype map&lt;/strong&gt;.
+The epigenotype map allowed me to explore the inheritance patterns of differing epialleles between the parents and approximately half of these epialleles showed expected inheritance.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,15 +69,15 @@ These existing programs focus on a limited subset of data types such as mRNA-seq
 
 &lt;p&gt;I have been working on developing additional tools, plugins, for the genome browser JBrowse that support epigenomics data.
 Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &amp;ldquo;tracks&amp;rdquo; which makes it extremely difficult to see combinations and patterns.
-The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
+The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34; target=&#34;_blank&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
 
 &lt;p&gt;Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
 Traditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indicative of function.
-I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
+I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34; target=&#34;_blank&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
 
 &lt;p&gt;Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
 For example, in ATAC-seq, it is beneficial to know strand-specific coverage (not currently support by JBrowse).
-I have created a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34;&gt;plugin&lt;/a&gt; that easily supports these strand-specific coverage tracks.&lt;/p&gt;
+I have created a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34; target=&#34;_blank&#34;&gt;plugin&lt;/a&gt; that easily supports these strand-specific coverage tracks.&lt;/p&gt;
 </description>
     </item>
     

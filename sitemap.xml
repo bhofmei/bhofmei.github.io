@@ -1,49 +1,193 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://bhofmei.github.io/</loc>
-    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/project/undergrad-genetics/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/project/epigenetic-inheritance/</loc>
-    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/jbrowse/</loc>
+      <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/project/epigenomics-visualization/</loc>
-    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/methyl-inherit/</loc>
+      <lastmod>2017-08-16T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/publication/origin-gbm/</loc>
-    <lastmod>2016-08-09T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/atac-seq/</loc>
+      <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/publication/l-major_base_j/</loc>
-    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/project/epigenetic-inheritance/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/project/epigenomics-visualization/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/publication/fastmc/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/origin-gbm/</loc>
+      <lastmod>2016-08-09T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/publication/t-brucei_base_j/</loc>
-    <lastmod>2016-01-21T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/l-major_base_j/</loc>
+      <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>https://bhofmei.github.io/home/software/</loc>
-    <lastmod>2017-01-10T00:00:00+00:00</lastmod>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/fastmc/</loc>
+      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/t-brucei_base_j/</loc>
+      <lastmod>2016-01-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/epigenetics/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/genetics/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/project/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/publication/</loc>
+      <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/software/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/visualization/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/web-development/</loc>
+      <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

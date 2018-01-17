@@ -6,9 +6,36 @@
     <description>Recent content in Publications on Brigitte Hofmeister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
-    <lastBuildDate>Tue, 09 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bhofmei.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018 Brigitte Hofmeister</copyright>
+    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enhanced JBrowse plugins for epigenomics data visualization</title>
+      <link>https://bhofmei.github.io/publication/jbrowse/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/publication/jbrowse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stable inheritance of DNA methylation allows creation of epigenotype maps and the study of epiallele inheritance patterns in the absence of genetic variation</title>
+      <link>https://bhofmei.github.io/publication/methyl-inherit/</link>
+      <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/publication/methyl-inherit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining ATAC-seq with nuclei sorting for discovery of cis-regulatory regions in plant genomes</title>
+      <link>https://bhofmei.github.io/publication/atac-seq/</link>
+      <pubDate>Fri, 07 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/publication/atac-seq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the origin and evolutionary consequences of gene body DNA methylation</title>

@@ -6,57 +6,9 @@
     <description>Recent content in Homes on Brigitte Hofmeister</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Brigitte Hofmeister</copyright>
+    <copyright>&amp;copy; 2018 Brigitte Hofmeister</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bhofmei.github.io/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>about</title>
-      <link>https://bhofmei.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bhofmei.github.io/home/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
-
-&lt;p&gt;I am a current Ph.D. candidate at the University of Georgia. A trained computer scientist with an interest of biology,
-I&amp;rsquo;ve found my passion in bioinformatics. Current research focuses on epigenetics in plants. Specifically I am interested in exploring inheritance patterns in plants.&lt;/p&gt;
-
-&lt;p&gt;I am also very interested in Big Data visualization, particularly for biological applications.
-Recently, I have been creating plugins for the genome browser &lt;a href=&#34;http://jbrowse.org/&#34;&gt;JBrowse&lt;/a&gt;. I have created plugins specifically for epigenetics research. I have also developed plugins to improve ease of use.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://bhofmei.github.io/home/software/</link>
-      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://bhofmei.github.io/home/software/</guid>
-      <description>
-
-&lt;h2 id=&#34;jbrowse-plugins&#34;&gt;JBrowse Plugins&lt;/h2&gt;
-
-&lt;h3 id=&#34;epigenomics&#34;&gt;Epigenomics&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation&#34;&gt;DNA Methylation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna&#34;&gt;Small RNA-seq&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34;&gt;Stranded Coverage Tracks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;user-experience&#34;&gt;User Experience&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-trackscores&#34;&gt;Adjust Track Scores&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-hierarchicalcheckbox&#34;&gt;Hierarchical Track list Checkbox&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-screenshot&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-seqview&#34;&gt;Sequence Feature Views&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bhofmei/jbplugin-yscale&#34;&gt;Y-Scale Menu Item&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
+    <atom:link href="/home/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
