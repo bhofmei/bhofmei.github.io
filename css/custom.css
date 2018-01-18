@@ -1,0 +1,13 @@
+/* updated styles to match custom theme */
+.pub-list-item .pub-authors{
+  color: #005b9f;
+}
+.pub-list-item .pub-publication{
+  color: #5eb8ff;
+}
+.article-title{
+  font-size: 1.5rem;
+}
+.pub-list-item .pub-abstract{
+  font-size: 0.9rem;
+}
