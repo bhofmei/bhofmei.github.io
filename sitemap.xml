@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>https://bhofmei.github.io/publication/arabidopsis_d6pkl3/</loc>
+      <lastmod>2017-04-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bhofmei.github.io/publication/atac-seq/</loc>
       <lastmod>2017-04-07T00:00:00+00:00</lastmod>
     </url>
@@ -41,7 +50,7 @@
     
     <url>
     
-      <loc>https://bhofmei.github.io/project/epigenetic-inheritance/</loc>
+      <loc>https://bhofmei.github.io/project/epigenomics-visualization/</loc>
       <lastmod>2016-09-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>https://bhofmei.github.io/project/epigenomics-visualization/</loc>
+      <loc>https://bhofmei.github.io/project/epigenetic-inheritance/</loc>
       <lastmod>2016-09-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -126,6 +135,16 @@
     
       <loc>https://bhofmei.github.io/tags/genetics/</loc>
       <lastmod>2018-01-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bhofmei.github.io/tags/inheritance/</loc>
+      <lastmod>2016-09-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

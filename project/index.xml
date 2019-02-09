@@ -19,15 +19,61 @@
       <description>&lt;p&gt;&lt;strong&gt;This project is in progress.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Developing an interest for web development, this project aims to join my interests: software development and genetics.
-This web applicaiton is based on previous software which was used to teach students about codons and frameshift mutations using scenario-based problem solving.
-The original software no longer works with current web browsers, so I was tasked with recreating it following current web development practices.&lt;/p&gt;
+This web application aims to teach undergraduate students principles of genetics with problem solving.&lt;/p&gt;
 
-&lt;p&gt;Built using the MEAN stack (MongoDB, Express, Node.js, and Angular), this application is visually appealling and simplifies the original user interface so students can focus on the genetics and logic.&lt;/p&gt;
+&lt;p&gt;Currently, &lt;em&gt;Inherit Logic&lt;/em&gt; contains two modules: Cricket and Mendelpede. Cricket focuses on teaching students about
+codons and frameshift mutations. Mendelpede focuses on transmission genetics.
+In both modules, students perform virtual experiments to learn the underlying genetics principles.&lt;/p&gt;
+
+&lt;p&gt;In Cricket, there are 10 different scenarios for students to go through. Students are given a starting
+set of phage strains and must plate them on &lt;em&gt;E. coli&lt;/em&gt; to accomplish the scenario&amp;rsquo;s goal. While plating,
+random frameshift mutations may arise and different strains can be combined to create recombinant individuals.&lt;/p&gt;
+
+&lt;p&gt;In Mendelpede, students are given a starting set of &amp;ldquo;pedes&amp;rdquo; with 5 variable phenotypic
+characteristics. By performing crosses between different pedes, students need to
+identify the mode of inheritance for each trait and dominance. There are also quizzes
+for students to determine the genotype of a set of pedes so instructors can see how students are doing.&lt;/p&gt;
+
+&lt;p&gt;Cricket has been used successfully in two semesters of an advanced undergraduate genetics course at UGA.
+Mendelpede has beeen used for one semester in both a graduate and undergraduate course. Based on student feedback,
+students enjoyed using the software as an educational tool and liked the interface.&lt;/p&gt;
+
+&lt;p&gt;Built using the MEAN stack (MongoDB, Express, Node.js, and Angular), this application is visually appealling. Where ever possible, standard practices in software engineering where used. Back end, front end, and underlying genetics are unit tested to ensure functional code as development continues.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Epigenetic Inheritance</title>
+      <title>Epigenomics Visualization</title>
+      <link>https://bhofmei.github.io/project/epigenomics-visualization/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bhofmei.github.io/project/epigenomics-visualization/</guid>
+      <description>&lt;p&gt;Epigenomics is the study of genome-wide distributions of chromatin modifications.
+Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecipation sequencing (ChIP-seq).
+With the large quantities of data being produced, data visualization is an important step for quality control and exploration.&lt;/p&gt;
+
+&lt;p&gt;Numerous software programs exist to visualize genomics data; most popular is the genome browser.
+These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is very little support for visualizing epigenomics.&lt;/p&gt;
+
+&lt;p&gt;I have developed additional tools, plugins, for the genome browser JBrowse that support epigenomics data.
+Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &amp;ldquo;tracks&amp;rdquo; which makes it extremely difficult to see combinations and patterns.
+The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34; target=&#34;_blank&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
+
+&lt;p&gt;Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
+Traditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indicative of function.
+I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34; target=&#34;_blank&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
+
+&lt;p&gt;Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
+For example, in ATAC-seq, it is beneficial to know strand-specific coverage (not currently support by JBrowse).
+I have created a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34; target=&#34;_blank&#34;&gt;plugin&lt;/a&gt; that easily supports these strand-specific coverage tracks. This plugin is also very useful for coverage views of mRNA-seq and smRNA-seq.&lt;/p&gt;
+
+&lt;p&gt;In addition to the epigenomics plugins, I have also created a plugin which makes taking
+browser screenshots easier and with customized view options. This plugin leverages &lt;a href=&#34;https://phantomjscloud.com/&#34; target=&#34;_blank&#34;&gt;PhantomJS Cloud&lt;/a&gt; to do the screenshot and is able to output images in PNG, JPG, and PDF. &lt;a href=&#34;https://github.com/bhofmei/jbplugin-screenshot&#34; target=&#34;_blank&#34;&gt;The screenshot plugin&lt;/a&gt; is particularly useful for scientific data communication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generational Epigenetic Inheritance</title>
       <link>https://bhofmei.github.io/project/epigenetic-inheritance/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       
@@ -51,33 +97,6 @@ For breeding programs, spontaneous epialleles must also be inherited following M
 With a genetic cross between two MA lines, WGBS was obtained for the parents of the cross and 20 F2 individuals.
 The parents only had about 40 distinguishing mutations, which required the creation of a novel algorithm to generate a genetic map using only DNA methylation, termed an &lt;strong&gt;epigenotype map&lt;/strong&gt;.
 The epigenotype map allowed me to explore the inheritance patterns of differing epialleles between the parents and approximately half of these epialleles showed expected inheritance.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Epigenomics Visualization</title>
-      <link>https://bhofmei.github.io/project/epigenomics-visualization/</link>
-      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bhofmei.github.io/project/epigenomics-visualization/</guid>
-      <description>&lt;p&gt;Epigenomics is the study of genome-wide distributions of chromatin modifications.
-Our knowledge of epigenomics has drastically improved with next-generation sequencing (NGS) with techniques like whole-genome bisulfite sequencing (WGBS) and chromatin immunoprecipation sequencing (ChIP-seq).
-With the large quantities of data being produced, data visualization is an important step for quality control and exploration.&lt;/p&gt;
-
-&lt;p&gt;Numerous software programs exist to visualize genomics data; most popular is the genome browser.
-These existing programs focus on a limited subset of data types such as mRNA-seq and single-nucleotide polymorphisms. Beyond ChIP-seq, there is very little support for visualizing epigenomics.&lt;/p&gt;
-
-&lt;p&gt;I have been working on developing additional tools, plugins, for the genome browser JBrowse that support epigenomics data.
-Specifically, I have created ways to view context-dependent DNA methylation from WGBS. The methylation context is very important to its function, particularly the combination of contexts in a region. Traditional genome browsers require the DNA methylation contexts as separate &amp;ldquo;tracks&amp;rdquo; which makes it extremely difficult to see combinations and patterns.
-The &lt;a href=&#34;https://github.com/bhofmei/jbplugin-methylation.git&#34; target=&#34;_blank&#34;&gt;methylation plugin&lt;/a&gt; I have developed allows for all methylation contexts to be displayed on one track with the context differentiate by color.&lt;/p&gt;
-
-&lt;p&gt;Small RNA are also important in epigenetics as they can regulate gene expression and impact DNA methylation.
-Traditional browsers support small RNA-sequencing data but are missing features specifically useful for small RNA-seq. Specifically, the size of a small RNA is indicative of function.
-I have developed a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-smallrna.git&#34; target=&#34;_blank&#34;&gt;small RNA-plugin&lt;/a&gt; for JBrowse which colors reads based on size and improves visualization by separating reads from the plus and minus strand.&lt;/p&gt;
-
-&lt;p&gt;Finally, ChIP-seq and similar techniques such as ATAC-seq, DNaseI-seq, Mnase-seq, are supported in JBrowse. However, it is missing features that are useful specifically in epigenomics.
-For example, in ATAC-seq, it is beneficial to know strand-specific coverage (not currently support by JBrowse).
-I have created a &lt;a href=&#34;https://github.com/bhofmei/jbplugin-strandedplot&#34; target=&#34;_blank&#34;&gt;plugin&lt;/a&gt; that easily supports these strand-specific coverage tracks.&lt;/p&gt;
 </description>
     </item>
     
